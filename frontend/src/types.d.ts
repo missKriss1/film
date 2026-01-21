@@ -26,3 +26,18 @@ export interface Person {
     alive: boolean;
     image: string;
 }
+export interface Book {
+    number: number;
+    title: string;
+    originalTitle: string;
+    releaseDate: string;
+    description: string;
+    pages: number;
+    cover: string;
+}
+
+interface Spell {
+    id: string;
+    name: string;
+    description: string;
+}
